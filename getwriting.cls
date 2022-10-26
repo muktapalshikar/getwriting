@@ -38,18 +38,17 @@
 \phantomsection\label{#1}\endgroup
 }
 \makeatother
-\setmainfont{AtkinsonHyperlegible}[ 
+\setmainfont[Path = fonts/,
 Extension = .ttf,
 UprightFont = *-Regular,
 BoldFont = *-Bold,
 ItalicFont = *-Italic,
 BoldItalicFont = *-BoldItalic] 
+{AtkinsonHyperlegible}
+
 \lstset{
 basicstyle=\ttfamily, %\small\ttfamily,
 columns=flexible,
 breaklines=true
 }
-\newenvironment{figurehere}
-{\def\@captype{figure}}
-{}
 \makeatletter
