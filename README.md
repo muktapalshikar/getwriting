@@ -1,4 +1,4 @@
-# **_getwriting_**: A Minimal Latex Template for Journal Articles: 
+# **_getwriting_**: A Minimal Latex Template for Journal Articles
 __Clean, beautiful Latex template for writing journal articles__
 
 This LaTex template provides a moderate extension to the base article class by pre-loading the usual formatting packages with options that make the finished product far easier to read. 
