@@ -18,7 +18,16 @@
 
 \end{abstract}
 \section{Introduction}
-\textbf{How to use this template: }Import all files in this repository into Overleaf (yes, Overleaf, since it has the best package manager and managing~\LaTeX~packages on a personal installation is a nightmare and \textbf{you should be writing}. Keep this tex file around for reference. Use a copy of this file to get started writing and fill in all the sections. \textbf{I used the XeLaTex compiler}. 
+\textbf{How to use this template: }
+\begin{outline}[enumerate]
+\1 \textbf{If you got this template from the Overleaf Gallery:}
+Easy, just edit as necessary. Keep this tex file around for reference. Use a copy of this file to get started writing, and fill in all the sections. \textbf{I used the XeLaTex compiler}. 
+\1 \textbf{If you didn't get this template from the Overleaf Gallery:}
+\2 If you're a relative newcomer to \LaTeX and/or use Overleaf:
+Import all files in this repository into Overleaf (yes, Overleaf, since it has the best package manager and managing~\LaTeX~packages on a personal installation is a nightmare and \textit{\textbf{you should be writing}}. Edit a copy of this tex file as described above.
+\2 \textbf{If you use a local Tex installation:}
+You can clone the GitHub repository from \url{https://github.com/mgp13/getwriting} and use as needed. Alternatively, you can fork the GitHub repository as a template.
+\end{outline}
 \par
 This document uses the beautiful and free Atkinson Hyperlegible font, which is designed for low-vision readers. You should consider doing the same. The TrueType font files are included with this template and you can download the font from the Braille Institute here: \url{https://brailleinstitute.org/freefont}.
 \par
@@ -65,6 +74,9 @@ I can refer to equation eq:refname like so: this is some text about \hyperref[eq
 I can list things like this:
 \begin{enumerate}
 	\item First item in a list
+	\begin{enumerate}
+	    \item This is a subitem.
+	\end{enumerate}
 	\item Second item in a list
 \end{enumerate}
 Or even like this:
