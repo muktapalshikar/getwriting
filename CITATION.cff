@@ -1,0 +1,16 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  getwriting A Minimal Latex Template for Journal
+  Articles
+message: >-
+  If you'd like to reference this template, please
+  use the metadata from this file.
+type: software
+authors:
+  - given-names: Mukta G.
+    family-names: Palshikar
+    affiliation: University of Rochester
+    orcid: 'https://orcid.org/0000-0002-1179-7903'
