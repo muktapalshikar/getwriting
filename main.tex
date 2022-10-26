@@ -1,5 +1,5 @@
 \documentclass{getwriting}
-\title{Minimal Template For Journal Articles}
+\title{\lstinline{getwriting}: A Minimal~\LaTeX~Template For Journal Articles}
 \author[1,2]{Notice the ORCID links, PhD \orcidlink{xxxx-xxxx-xxxx-xxxx} \thanks{firstauthor@famoustown.edu}}
 \author[3]{Emails are in the footnote \orcidlink{xxxx-xxxx-xxxx-xxxx} \thanks{secondauthor@historytown.edu}}
 \author[1,3]{Usually only this person's email needs to be shown, PhD \orcidlink{xxxx-xxxx-xxxx-xxxx} \thanks{thirdauthor@lessfamoustown.edu}}
@@ -10,7 +10,7 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-    This is an example of the 'journal' type of document that can be generated with the MGP class. I usually use this template or minor variations thereof to write manuscripts. The MGP class also has a 'statement' variation that you will \textit{soon} find elsewhere in this repository.
+    This is an example of the document that can be generated with the \lstinline{getwriting} class. I usually use this template or minor variations thereof to write manuscripts.
     \par
     This class offers a quick start to writing articles by including commonly used packages and a template that matches the general format of most journal articles. I have kept available options to the bare minimum. If you really want to tweak something, edit the cls file. 
     \par
@@ -20,10 +20,10 @@
     \par
     If you need to reformat your document for journals later, it's easy to copy and paste from this template as there are almost no custom sections.
     \\\\
-    \textbf{Keywords:} Article templates, Overleaf, minimal, \LaTeX
+    \textbf{Keywords:} Article templates, Overleaf, minimal, bioR$\chi$v, medR$\chi$v, format-free submissions,~\LaTeX
 \end{abstract}
 \section{Introduction}
-\textbf{How to use this template: }Import all files in this repository into Overleaf (yes, Overleaf, since it has the best package manager and managing \LaTeX packages on a personal installation is a nightmare and \textbf{you should be writing}. Keep this tex file around for reference. Use a copy of this file to get started writing and fill in all the sections.
+\textbf{How to use this template: }Import all files in this repository into Overleaf (yes, Overleaf, since it has the best package manager and managing~\LaTeX~packages on a personal installation is a nightmare and \textbf{you should be writing}. Keep this tex file around for reference. Use a copy of this file to get started writing and fill in all the sections. \textbf{I used the XeLaTex compiler}. 
 \par
 This document uses the beautiful and free Atkinson Hyperlegible font, which is designed for low-vision readers. You should consider doing the same. The TrueType font files are included with this template and you can download the font from the Braille Institute here: \url{https://brailleinstitute.org/freefont}.
 \par
@@ -36,7 +36,7 @@ I can refer to subsequent sections and elements like so: \hyperref[results]{\aut
 \subsection{Disclaimers}
 This is a numbered subsection, by the way.
 \par
-\textbf{This template is provided as-is} and I take no responsibility for any errors/disasters. I'm not a \LaTeX expert even though I can typeset \LaTeX~and I can even cite papers~\cite{scbonita} and cross-reference equations~\hyperref[eq:refname]{(\autoref{eq:refname})}. Play with the .cls file, look it up on StackOverflow and/or the Overleaf documentation, do whatever you like.
+\textbf{This template is provided as-is} and I take no responsibility for any errors/disasters. I'm not a~\LaTeX~expert even though I can typeset~\LaTeX~and I can even cite papers~\cite{scbonita} and cross-reference equations~\hyperref[eq:refname]{(\autoref{eq:refname})}. Play with the .cls file, look it up on StackOverflow and/or the Overleaf documentation, do whatever you like.
 \section{Results}\label{results}
 \subsection{Citations and cross-references}
 Here are some magnificent results. Previous work has shown something, but not this, and I have cited a paper~\cite{scbonita}. 
@@ -59,7 +59,7 @@ Speaking of figures, here are the rules for this minimal template. Most of these
 \subsection{All About Text Formatting}
 You should almost never highlight text, but here's how you can: \hl{this is a highlighted phrase}.\\
 Consider \textit{italics}, \textbf{bold} or \emph{emphasis} instead.\\
-Write inline math like this ($\sqrt{-1}$), Greek letters like this ($\alpha$), inlinemath and Greek together like this ($\alpha + \beta = \gamma$), and basic chemical formulae or any text requiring super/sub-scripts in math mode like this $O_2$, $O^2$, $O_{1,2,3}$. 
+Write inline math like this ($\sqrt{-1}$), Greek letters like this ($\alpha$), inline math and Greek together like this ($\alpha + \beta = \gamma$), and basic chemical formulae or any text requiring super/sub-scripts in math mode like this $O_2$, $O^2$, $O_{1,2,3}$. 
 \subsection{All About Equations}
 I can refer to equation eq:refname like so: this is some text about \hyperref[eq:refname]{\autoref{eq:refname}} and I can also modify display text in the hyperlink like this \hyperref[eq:refname]{(\autoref{eq:refname} This is a string)}
 \begin{equation}
@@ -105,7 +105,7 @@ Rules for tables:
 \begin{outline}
 \1 Each table goes on a new page. All tables should be in this section.
 \1 I only use the longtables and booktabs packages, regardless of the length of the tables. These produce beautiful and readable tables. It's easy to generate longtable code from a CSV with Pandas: \url{https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_latex.html}
-\1 The makecell command allows you to insert math in the cells of the table and generally allows for nicer formatting.
+\1 The makecell command allows multi-lined cells.
 \end{outline}
 \par
 An example table~\hyperref[tab:table1]{(\autoref{tab:table1})} will start on the next page.
