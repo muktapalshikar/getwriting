@@ -13,6 +13,8 @@ This document uses the beautiful and free Atkinson Hyperlegible font, which is d
 
 Further documentation is in the PDF file: https://github.com/mgp13/Minimal-Template-for-Journal-Articles/blob/main/getwriting.pdf
 
+View and copy this project on Overleaf here: https://www.overleaf.com/read/ytjyzbchkhhn
+
 If you need to reference this template, please use the citation generator in the right side bar or the following BibTex entry:
 
 ```
